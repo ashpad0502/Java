@@ -1,4 +1,4 @@
-package insertionsort;
+package Sorting;
 import java.util.*;
 public class InsertionsortApp 
 {

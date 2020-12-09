@@ -1,4 +1,4 @@
-
+package Trees;
 public class BinaryTreeNode {
     private int data;
     private BinaryTreeNode leftNode = null;

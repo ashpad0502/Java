@@ -1,15 +1,16 @@
 //Java Program to count words in a sentence and display in alphabetical order
+package Trees;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
-public class test {
+public class TreeMapDemo {
 public static void main(String args[])
 {
 	Scanner sc = new Scanner(System.in);
 	System.out.print("Enter a sentence: ");
-	String so = sc.nextLine(); int count,k;
+	String so = sc.nextLine(); int count;
 	String s = so.toLowerCase();
 	TreeMap<String,Integer> tm  = new TreeMap<>();
 	String[] arr = s.split(" ");
